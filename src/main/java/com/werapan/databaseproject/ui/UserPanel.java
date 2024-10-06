@@ -120,6 +120,11 @@ public class UserPanel extends javax.swing.JPanel {
         jLabel3.setText("Login :");
 
         edtLogin.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        edtLogin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                edtLoginActionPerformed(evt);
+            }
+        });
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 0, 0));
@@ -416,6 +421,10 @@ public class UserPanel extends javax.swing.JPanel {
             
         }
     }//GEN-LAST:event_btnDeleteActionPerformed
+
+    private void edtLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_edtLoginActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_edtLoginActionPerformed
 
     private void setObjectToForm() {
         //        set obj to form
